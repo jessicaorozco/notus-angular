@@ -1,0 +1,11 @@
+frontend:
+    path: .
+    publish: dist/notus-angular
+    scripts:
+        deploy:
+            - npm install --legacy-peer-deps
+            - npm run build
+    subdomain: notus-angular
+name: notus-angular
+region: us-east-1
+yamlVersion: 2
